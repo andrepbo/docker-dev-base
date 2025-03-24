@@ -1,3 +1,4 @@
 #!/bin/bash
-echo "Container ready! Welcome to the development environment."
+source /root/.nvm/nvm.sh
+echo "Node.js version: $(node -v)"
 exec "$@"
